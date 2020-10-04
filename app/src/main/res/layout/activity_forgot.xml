@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotActivity"
+    android:background="@color/myBlack">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/la_bistro_logo_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:id="@+id/txtEnterDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotPageTitle"
+        android:textColor="@color/myWhite"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:textSize="13sp"
+
+        />
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed_background"
+        android:padding="8dp"
+        android:hint="Mobile Number (10 digits)"
+        android:textColorHint="@color/myWhite"
+        android:layout_below="@+id/txtEnterDetails"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:textColor="@color/myWhite"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:inputType="number"
+
+
+        />
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed_background"
+        android:padding="8dp"
+        android:hint="Email Address"
+        android:textColorHint="@color/myWhite"
+        android:layout_below="@+id/etMobileNumber"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/myWhite"
+        android:maxLines="1"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailAddress"
+        android:layout_margin="12dp"
+        android:text="Next"
+
+        />
+
+
+
+</RelativeLayout>

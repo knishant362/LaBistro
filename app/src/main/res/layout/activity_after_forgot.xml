@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterForgotActivity"
+    android:background="@color/myBlack">
+
+    <TextView
+        android:id="@+id/txtTitleMobNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number :"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/myWhite"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtDisplayMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number Here"
+        android:textColor="@color/myWhite"
+        android:gravity="center"
+        android:layout_below="@id/txtTitleMobNum"
+
+        />
+
+    <TextView
+        android:id="@+id/txtTitleEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address :"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtDisplayMobileNumber"
+        android:textColor="@color/myWhite"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtDisplayEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address Here"
+        android:textColor="@color/myWhite"
+        android:layout_below="@+id/txtTitleEmail"
+        android:gravity="center"
+
+        />
+</RelativeLayout>

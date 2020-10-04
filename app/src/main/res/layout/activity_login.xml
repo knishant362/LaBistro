@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/myBlack">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="130dp"
+        android:layout_height="130sp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/la_bistro_logo_1"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Username"
+        android:textColorHint="@color/myWhite"
+        android:textSize="15sp"
+        android:background="@drawable/ed_background"
+        android:padding="8dp"
+        android:textColor="@color/myWhite"
+        android:maxLines="1"
+
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:textColorHint="@color/myWhite"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:background="@drawable/ed_background"
+        android:padding="8dp"
+        android:textColor="@color/myWhite"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/myWhite"
+        android:text="Log In"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+
+
+        />
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:layout_below="@id/btnLogIn"
+        android:textColor="@color/myWhite"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="11sp"
+
+        />
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textColor="@color/myWhite"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="11sp"
+        />
+
+
+
+</RelativeLayout>

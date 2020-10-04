@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Internshala</string>
+    <string name="preference_file_name">Labistro Preferences</string>
+    <string name="forgotPageTitle">Enter your registered mobile number and email below :</string>
+</resources>
